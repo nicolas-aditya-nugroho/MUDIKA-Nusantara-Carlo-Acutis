@@ -1,0 +1,45 @@
+*html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: poppins, sans-serif, semi-bold;
+    background-color: black;
+    color: goldenrod;
+    height: 25vh;
+    justify-content: center;
+    align-items: center;
+}
+.card {
+    margin: 1em auto;
+}
+/* Gaya untuk perangkat mobile */
+@media (max-width: 600px) {
+    body {
+        font-size: 14px;
+    }
+    .container {
+        padding: 10px;
+    }
+}
+
+/* Gaya untuk tablet */
+@media (min-width: 601px) and (max-width: 1024px) {
+    body {
+        font-size: 16px;
+    }
+    .container {
+        padding: 20px;
+    }
+}
+
+/* Gaya untuk desktop */
+@media (min-width: 1025px) {
+    body {
+        font-size: 18px;
+    }
+    .container {
+        padding: 30px;
+    }
+}
